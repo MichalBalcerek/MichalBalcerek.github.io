@@ -32,7 +32,7 @@ with applications to the analysis of single-particle trajectories.
 
 ## Research interests
 
-<div class="row">
+<div class="row research-cards">
   <div class="col-md-4 mb-4">
     <div class="card h-100" style="border-radius: 0.75rem;">
       <div class="card-body">
@@ -59,12 +59,14 @@ with applications to the analysis of single-particle trajectories.
   </div>
 </div>
 
-## Contact
+<section class="contact-panel" aria-labelledby="contact">
+<h2 id="contact">Contact</h2>
 
-<address style="font-style: normal; margin-bottom: 1.5rem;">
+<address style="font-style: normal;">
   <strong>Wrocław University of Science and Technology</strong><br>
   Faculty of Pure and Applied Mathematics · Department of Applied Mathematics · Hugo Steinhaus Center<br>
   Wybrzeże Wyspiańskiego 27, 50-370 Wrocław, Poland<br>
   Room A.3.23 · Building C-19<br>
   <i class="fa-solid fa-envelope" aria-hidden="true"></i> E-mail: <a href="mailto:michal.balcerek@pwr.edu.pl">michal.balcerek@pwr.edu.pl</a>
 </address>
+</section>
