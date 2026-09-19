@@ -2,7 +2,7 @@ cv:
   name: Michał Balcerek
   label: Mathematician
   summary: >-
-    Assistant Professor at the Faculty of Mathematics, Wrocław University of Science and Technology.
+    Assistant Professor at the Faculty of Pure and Applied Mathematics, Wrocław University of Science and Technology.
     My research concerns stochastic processes, anomalous diffusion, long memory,
     statistical inference, and the analysis of single-particle trajectories.
 
@@ -41,7 +41,7 @@ cv:
         location: Wrocław, Poland
         start_date: 2013
         end_date: present
-        summary: Currently Assistant Professor (adiunkt), Faculty of Mathematics.
+        summary: Currently Assistant Professor (adiunkt), Faculty of Pure and Applied Mathematics.
         highlights:
           - Research in stochastic modelling, anomalous diffusion, and statistical analysis of complex trajectories.
           - Teaching and supervision in applied mathematics, stochastic processes, statistics, and computational methods.
@@ -109,35 +109,40 @@ cv:
           including one in the Industrial Doctorate programme.
       - bullet: "**Teaching tools:** Julia, Python, MATLAB, Mathematica, R, and SAS."
 
-    Selected Talks:
+    Selected talks and activities:
       - bullet: >-
-          **2025 — CFE–CMStatistics, London.** “Multidimensional fractional Brownian motion:
+          **December 2025 — CFE–CMStatistics, London.** “Multidimensional fractional Brownian motion:
           From construction to analysis.”
       - bullet: >-
-          **2025 — 44th Conference on Stochastic Processes and their Applications, Wrocław.**
+          **July 2025 — 44th Conference on Stochastic Processes and their Applications, Wrocław.**
           “Two-dimensional fractional Brownian motion: construction and analysis.”
       - bullet: >-
-          **2025 — AnDi+: AI for Bioimaging Beyond Trajectory Analysis, Gothenburg.**
+          **June 2025 — AnDi+: AI for Bioimaging Beyond Trajectory Analysis, Gothenburg.**
           “From Theory to Application: Modeling Complex Systems with Telegraphic Multifractional Brownian Motion.”
       - bullet: >-
-          **2023 — CMStatistics, Berlin.** “Modelling intermittent anomalous diffusion with
+          **December 2023 — CMStatistics, Berlin.** “Modelling intermittent anomalous diffusion with
           switching fractional Brownian motion”; chair of “Stochastic processes and applications.”
       - bullet: >-
-          **2022 — Mathematics for Society: Health, Industry and Sustainable Development, Gdańsk.**
+          **November 2022 — Mathematics for Society: Health, Industry and Sustainable Development, Gdańsk.**
           Invited talk, “Applications of anomalous diffusion and long-memory processes.”
       - bullet: >-
-          **2019 — University of Verona.** Invited lecture series, “Anomalous diffusion and applications to molecular biology.”
+          **November 2019 — University of Verona.** Invited lecture series, “Anomalous diffusion and applications to molecular biology.”
       - bullet: >-
           **2018 — Humboldt-Universität zu Berlin.** Invited lecture series, “Statistics of Financial Markets II.”
       - bullet: >-
-          **2018 — ECMI Modelling Week, Novi Sad.** Instructor and student-team leader,
+          **July 2018 — ECMI Modelling Week, Novi Sad.** Instructor and student-team leader,
           “Diffusion and anomalous diffusion models: simulation and application to biological data.”
 
-    Academic Service:
-      - bullet: Advisor to the Financial Engineering Student Research Society.
-      - bullet: Representative of academic teachers on the Faculty of Mathematics Council.
+    Other academic activities:
       - bullet: >-
-          **Organising committees:** XLVIII Conference on Mathematical Statistics (2022);
-          22nd ECMI Conference on Industrial and Applied Mathematics (2023);
-          European Physical Society Statistical and Nonlinear Physics Prizes Conference (2024);
-          Recent Advances in Applied Mathematics (2024); Applied Mathematics Now and Beyond (2025).
+          Former advisor of [KNIF – Koło Naukowe Inżynierii Finansowej](https://www.facebook.com/KNIF.PWr.wroc/)
+          (Financial Engineering Student Interest Group).
+      - bullet: Representative of academic teachers on the Faculty of Pure and Applied Mathematics Council.
+      - bullet: |-
+          **Organising committees:**
+
+          - XLVIII Conference on Mathematical Statistics (2022).
+          - 22nd ECMI Conference on Industrial and Applied Mathematics (2023).
+          - European Physical Society Statistical and Nonlinear Physics Prizes Conference (2024).
+          - Recent Advances in Applied Mathematics (2024).
+          - Applied Mathematics Now and Beyond (2025).
