@@ -1,6 +1,143 @@
 cv:
   name: Michał Balcerek
   label: Mathematician
-  # Add your CV sections here when you are ready.
-  # Supported sections include Education, Experience, Awards, and Publications.
-  sections: {}
+  summary: >-
+    Assistant Professor at the Faculty of Mathematics, Wrocław University of Science and Technology.
+    My research concerns stochastic processes, anomalous diffusion, long memory,
+    statistical inference, and the analysis of single-particle trajectories.
+
+  sections:
+    Education:
+      - institution: Wrocław University of Science and Technology
+        location: Wrocław, Poland
+        studyType: PhD
+        area: Mathematics
+        date: 2018
+        highlights:
+          - Faculty of Pure and Applied Mathematics.
+          - "Thesis: Stochastic and numerical modelling of signals having anomalous diffusion behaviour."
+          - "Supervisor: Krzysztof Burnecki."
+
+      - institution: Wrocław University of Science and Technology
+        location: Wrocław, Poland
+        studyType: MSc
+        area: Financial and Actuarial Mathematics
+        date: 2012
+        highlights:
+          - Faculty of Fundamental Problems of Technology.
+          - "Thesis: Risk process with different loss distributions."
+          - "Supervisor: Agnieszka Wyłomańska."
+
+      - institution: Wrocław University of Science and Technology
+        location: Wrocław, Poland
+        studyType: Bachelor's degree
+        date: 2010
+        highlights:
+          - Faculty of Fundamental Problems of Technology.
+
+    Experience:
+      - company: Wrocław University of Science and Technology
+        position: Academic staff
+        location: Wrocław, Poland
+        start_date: 2013
+        end_date: present
+        summary: Currently Assistant Professor (adiunkt), Faculty of Mathematics.
+        highlights:
+          - Research in stochastic modelling, anomalous diffusion, and statistical analysis of complex trajectories.
+          - Teaching and supervision in applied mathematics, stochastic processes, statistics, and computational methods.
+
+      - company: University of Birmingham, School of Computer Science
+        position: Postdoctoral Researcher
+        location: Birmingham, UK
+        start_date: 2021-02
+        end_date: 2022-02
+        summary: February 2021–February 2022.
+        highlights:
+          - Interdisciplinary applications of statistical and machine-learning methods to biological experimental data.
+
+    Research Visits:
+      - bullet: >-
+          **2026/27 — Colorado State University, Fort Collins, USA.** Scheduled seven-month
+          research stay under the Fulbright Polish Scholar Award, hosted by Prof. Diego Krapf.
+      - bullet: >-
+          **2024 — Colorado State University.** Research stay in Prof. Diego Krapf's laboratory,
+          studying doubly stochastic processes with long memory, ergodic properties,
+          statistical estimators, measurement noise, and single-particle-tracking data.
+      - bullet: >-
+          **2022 — Colorado State University.** Visiting researcher in Prof. Diego Krapf's group.
+
+    Awards:
+      - title: Fulbright Polish Scholar Award
+        date: 2026/27
+        awarder: Polish-U.S. Fulbright Commission
+        url: https://fulbright.edu.pl/laureates-of-the-fulbright-senior-award-2026-27/
+        summary: Awarded for a research stay at Colorado State University in the 2026/27 academic year. Formerly the Fulbright Senior Award.
+
+      - title: Secundus programme, seventh edition
+        date: 2026
+        awarder: Wrocław University of Science and Technology
+        url: https://pwr.edu.pl/uczelnia/aktualnosci/laureaci-i-laureatki-siodmej-edycji-programu-secundus-lista-14134.html
+        summary: Laureate in the discipline of Mathematics.
+
+      - title: Rector's Prizes
+        date: 2025
+        awarder: Wrocław University of Science and Technology
+        summary: Received in 2021, 2023, 2024, and 2025 in recognition of teaching and scientific activities.
+
+      - title: Quintus Prize
+        date: 2024
+        awarder: Wrocław University of Science and Technology
+        summary: Student-selected distinction for teaching excellence.
+
+      - title: Academia Iuvenum
+        date: 2022–2024
+        awarder: Wrocław University of Science and Technology
+        summary: Member of the university's interdisciplinary programme for early-career researchers.
+
+    Teaching and Supervision:
+      - bullet: >-
+          **Teaching since 2013.** Courses include computer simulation of stochastic processes,
+          numerical methods, financial engineering, stochastic modelling of financial markets,
+          probability and statistics software, differential equations, calculus, linear algebra,
+          risk modelling, and insurance mathematics.
+      - bullet: >-
+          **Thesis supervision.** More than 50 BSc/BEng and MSc thesis projects supervised since
+          2018 in applied mathematics, stochastic processes, statistical inference,
+          computational methods, and data analysis.
+      - bullet: >-
+          **Doctoral supervision.** Assistant supervisor to two doctoral candidates,
+          including one in the Industrial Doctorate programme.
+      - bullet: "**Teaching tools:** Julia, Python, MATLAB, Mathematica, R, and SAS."
+
+    Selected Talks:
+      - bullet: >-
+          **2025 — CFE–CMStatistics, London.** “Multidimensional fractional Brownian motion:
+          From construction to analysis.”
+      - bullet: >-
+          **2025 — 44th Conference on Stochastic Processes and their Applications, Wrocław.**
+          “Two-dimensional fractional Brownian motion: construction and analysis.”
+      - bullet: >-
+          **2025 — AnDi+: AI for Bioimaging Beyond Trajectory Analysis, Gothenburg.**
+          “From Theory to Application: Modeling Complex Systems with Telegraphic Multifractional Brownian Motion.”
+      - bullet: >-
+          **2023 — CMStatistics, Berlin.** “Modelling intermittent anomalous diffusion with
+          switching fractional Brownian motion”; chair of “Stochastic processes and applications.”
+      - bullet: >-
+          **2022 — Mathematics for Society: Health, Industry and Sustainable Development, Gdańsk.**
+          Invited talk, “Applications of anomalous diffusion and long-memory processes.”
+      - bullet: >-
+          **2019 — University of Verona.** Invited lecture series, “Anomalous diffusion and applications to molecular biology.”
+      - bullet: >-
+          **2018 — Humboldt-Universität zu Berlin.** Invited lecture series, “Statistics of Financial Markets II.”
+      - bullet: >-
+          **2018 — ECMI Modelling Week, Novi Sad.** Instructor and student-team leader,
+          “Diffusion and anomalous diffusion models: simulation and application to biological data.”
+
+    Academic Service:
+      - bullet: Advisor to the Financial Engineering Student Research Society.
+      - bullet: Representative of academic teachers on the Faculty of Mathematics Council.
+      - bullet: >-
+          **Organising committees:** XLVIII Conference on Mathematical Statistics (2022);
+          22nd ECMI Conference on Industrial and Applied Mathematics (2023);
+          European Physical Society Statistical and Nonlinear Physics Prizes Conference (2024);
+          Recent Advances in Applied Mathematics (2024); Applied Mathematics Now and Beyond (2025).
