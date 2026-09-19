@@ -1,0 +1,166 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/* Configure your design tokens BEFORE loading any of your partials.
+   Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
+@use "variables" with (
+  $max-content-width: {{site.max_width | default: "930px"}}
+);
+
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+// Personal cyan and neon-pink palette. Shared theme modules remain gem-owned.
+:root {
+  --global-bg-color: #ffffff;
+  --global-text-color: #183146;
+  --global-text-color-light: #536777;
+  --global-theme-color: #006d95;
+  --global-hover-color: #b50067;
+  --global-hover-text-color: #ffffff;
+  --global-card-bg-color: #edf8fc;
+  --global-divider-color: #d9e4eb;
+  --global-footer-bg-color: #f5f9fc;
+  --global-footer-text-color: #536777;
+  --global-footer-link-color: #006d95;
+  --global-newsletter-bg-color: #f5f9fc;
+  --global-newsletter-text-color: #183146;
+  --personal-pink: #b50067;
+  --personal-neon-pink: #f02d9e;
+  --personal-contact-bg: #f5f9fc;
+  --personal-button-text: #ffffff;
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #0c1a25;
+  --global-text-color: #edf4fa;
+  --global-text-color-light: #aec1cf;
+  --global-theme-color: #62d4ff;
+  --global-hover-color: #ff64c1;
+  --global-hover-text-color: #0c1a25;
+  --global-card-bg-color: #142f40;
+  --global-divider-color: #284250;
+  --global-footer-bg-color: #10232f;
+  --global-footer-text-color: #aec1cf;
+  --global-footer-link-color: #62d4ff;
+  --global-newsletter-bg-color: #10232f;
+  --global-newsletter-text-color: #edf4fa;
+  --personal-pink: #ff64c1;
+  --personal-neon-pink: #ff64c1;
+  --personal-contact-bg: #10232f;
+  --personal-button-text: #0c1a25;
+}
+
+.post-header .post-title {
+  color: var(--global-theme-color);
+}
+
+.post-header .desc {
+  color: var(--global-text-color-light);
+}
+
+#navbar .nav-item.active > .nav-link,
+#navbar a[aria-current="page"] {
+  color: var(--personal-pink);
+  text-decoration: underline;
+  text-decoration-color: var(--personal-neon-pink);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 0.65rem;
+}
+
+a:hover,
+a:focus-visible {
+  color: var(--personal-pink);
+}
+
+.btn-primary {
+  color: var(--personal-button-text);
+}
+
+.publications h2.bibliography {
+  color: var(--global-text-color-light);
+}
+
+.research-cards .card {
+  border-top: 3px solid var(--global-theme-color);
+  box-shadow: none;
+}
+
+.research-cards .card-title {
+  color: var(--global-theme-color);
+}
+
+.research-cards .card-text {
+  color: var(--global-text-color-light);
+}
+
+#research-interests {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+#research-interests::after {
+  content: "";
+  width: 2.4rem;
+  height: 3px;
+  background: var(--personal-neon-pink);
+  border-radius: 3px;
+}
+
+.contact-panel {
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  background: var(--personal-contact-bg);
+  border-left: 3px solid var(--personal-neon-pink);
+  border-radius: 0.75rem;
+}
+
+.contact-panel address {
+  margin-bottom: 0;
+  color: var(--global-text-color-light);
+  overflow-wrap: anywhere;
+}
+
+.contact-panel strong {
+  color: var(--global-text-color);
+}
+
+.contact-panel a {
+  color: var(--personal-pink);
+}
+
+footer.fixed-bottom,
+footer.sticky-bottom {
+  border-top: 1px solid var(--global-divider-color);
+}
+
+@media (max-width: 575px) {
+  .contact-panel {
+    padding: 1.1rem;
+  }
+}
