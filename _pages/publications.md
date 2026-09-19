@@ -14,6 +14,12 @@ nav_order: 1
 {% bibliography --query @article %}
 </div>
 
+## Book chapters
+
+<div class="publications">
+{% bibliography --query @incollection %}
+</div>
+
 ## Preprints
 
 <div class="publications">
