@@ -30,6 +30,16 @@ with applications to the analysis of single-particle trajectories.
   <a href="{{ '/teaching/' | relative_url }}">Teaching →</a>
 </nav>
 
+## Contact
+
+<address style="font-style: normal;">
+  <strong>Wrocław University of Science and Technology</strong><br>
+  Faculty of Pure and Applied Mathematics · Department of Applied Mathematics · Hugo Steinhaus Center<br>
+  Wybrzeże Wyspiańskiego 27, 50-370 Wrocław, Poland<br>
+  Room A.3.23 · Building C-19<br>
+  E-mail: <a href="mailto:michal.balcerek@pwr.edu.pl">michal.balcerek@pwr.edu.pl</a>
+</address>
+
 ## Research interests
 
 <div class="row">
