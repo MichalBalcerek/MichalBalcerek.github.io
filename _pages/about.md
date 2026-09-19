@@ -17,28 +17,18 @@ with applications to the analysis of single-particle trajectories.
 
 <nav aria-label="Academic profiles" style="display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; align-items: center; margin-bottom: 1.5rem;">
   <span>Profiles:</span>
-  <a href="https://orcid.org/{{ site.data.socials.orcid_id }}">ORCID</a>
-  <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}&amp;hl=en">Google Scholar</a>
-  <a href="https://www.scopus.com/authid/detail.uri?authorId={{ site.data.socials.scopus_id }}">Scopus</a>
-  <a href="https://github.com/{{ site.data.socials.github_username }}">GitHub</a>
+  <a href="https://orcid.org/{{ site.data.socials.orcid_id }}"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a>
+  <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}&amp;hl=en"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
+  <a href="https://www.scopus.com/authid/detail.uri?authorId={{ site.data.socials.scopus_id }}"><i class="ai ai-scopus" aria-hidden="true"></i> Scopus</a>
+  <a href="https://github.com/{{ site.data.socials.github_username }}"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
 </nav>
 
 <nav aria-label="Explore my work" style="display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; align-items: center; margin-bottom: 1.5rem;">
   <a href="{{ '/projects/' | relative_url }}">Research projects →</a>
   <a href="{{ '/publications/' | relative_url }}">Publications →</a>
-  <a href="{{ '/cv/' | relative_url }}">CV →</a>
+  <a href="{{ '/cv/' | relative_url }}"><i class="ai ai-cv" aria-hidden="true"></i> CV →</a>
   <a href="{{ '/teaching/' | relative_url }}">Teaching →</a>
 </nav>
-
-## Contact
-
-<address style="font-style: normal;">
-  <strong>Wrocław University of Science and Technology</strong><br>
-  Faculty of Pure and Applied Mathematics · Department of Applied Mathematics · Hugo Steinhaus Center<br>
-  Wybrzeże Wyspiańskiego 27, 50-370 Wrocław, Poland<br>
-  Room A.3.23 · Building C-19<br>
-  E-mail: <a href="mailto:michal.balcerek@pwr.edu.pl">michal.balcerek@pwr.edu.pl</a>
-</address>
 
 ## Research interests
 
@@ -68,3 +58,13 @@ with applications to the analysis of single-particle trajectories.
     </div>
   </div>
 </div>
+
+## Contact
+
+<address style="font-style: normal; margin-bottom: 1.5rem;">
+  <strong>Wrocław University of Science and Technology</strong><br>
+  Faculty of Pure and Applied Mathematics · Department of Applied Mathematics · Hugo Steinhaus Center<br>
+  Wybrzeże Wyspiańskiego 27, 50-370 Wrocław, Poland<br>
+  Room A.3.23 · Building C-19<br>
+  <i class="fa-solid fa-envelope" aria-hidden="true"></i> E-mail: <a href="mailto:michal.balcerek@pwr.edu.pl">michal.balcerek@pwr.edu.pl</a>
+</address>
