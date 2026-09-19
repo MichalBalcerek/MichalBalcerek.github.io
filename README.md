@@ -58,4 +58,4 @@ To add a course, copy an existing course file, give it a unique `permalink` begi
 
 See [SETUP.md](SETUP.md) for GitHub Pages configuration and local preview instructions.
 
-The original template documentation is retained in `docs/`. The al-folio theme and runtime are loaded through the pinned dependencies in `Gemfile` and `Gemfile.lock`; there are no local runtime overrides.
+The original template documentation is retained in `docs/`. The al-folio theme and runtime are loaded through the pinned dependencies in `Gemfile` and `Gemfile.lock`. The cyan and neon-pink palette lives in `assets/css/main.scss`, which imports the shared theme modules and adds personal styles. This local entry-point override is tracked in `.al-folio-overrides.yml`; review it when upgrading the theme.
