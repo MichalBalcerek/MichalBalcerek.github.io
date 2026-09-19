@@ -11,7 +11,7 @@ latest_posts:
   enabled: false
 ---
 
-I am a mathematician in the Faculty of Mathematics at Wrocław University of Science and Technology.
+I am a mathematician in the Faculty of Pure and Applied Mathematics at Wrocław University of Science and Technology.
 My research concerns stochastic processes, anomalous diffusion, long memory, and statistical inference,
 with applications to the analysis of single-particle trajectories.
 
