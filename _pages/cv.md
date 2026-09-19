@@ -5,5 +5,5 @@ title: CV
 nav: true
 nav_order: 3
 cv_format: rendercv
-description: CV details will be added here.
+description: Education, academic experience, research visits, teaching, and service.
 ---
