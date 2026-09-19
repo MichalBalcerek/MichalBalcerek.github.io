@@ -82,11 +82,8 @@ for (const forbiddenGlobPath of [
   }
 }
 
-for (const requiredPath of ["test/visual", "test/integration_plugin_toggles.sh", "test/integration_distill.sh"]) {
-  if (!exists(requiredPath)) {
-    failures.push(`Starter integration/visual contract missing required path: \`${requiredPath}\`.`);
-  }
-}
+// This personal site retains the theme wiring checks above. The upstream
+// starter's demo visual and cross-plugin test suites are not part of this site.
 
 if (failures.length > 0) {
   console.error("Starter style contract check failed:");
