@@ -44,7 +44,7 @@ Project cards appear automatically on the Projects page. Add images under `asset
 
 Edit `_pages/research.md` for current research topics, mathematical overviews, and links to representative publications. Technical overviews use native `<details>` elements and MathJax; keep `markdown="1"` on the expandable blocks so that paragraphs and equations render correctly. Research projects are listed from the `_projects/` collection.
 
-Edit `_pages/students.md` for proposed thesis topics, supervision information, and theses grouped by academic year. Preserve the distinction between supervised theses and the earlier work supported through consultations. Keep any availability notice explicitly dated; the imported 2025/26 notice does not establish availability for later years.
+Edit `_pages/students.md` for proposed master's thesis topics, supervision information, and completed theses grouped by academic year. Preserve the historical degree labels and the distinction between supervised theses and the earlier work supported through consultations. All listed projects, including 2025/26, are completed; there are currently no ongoing theses.
 
 ## Add CV details
 
