@@ -47,7 +47,7 @@ The notes below introduce representative models and questions behind these direc
 Open a topic for equations, a short explanation, and links to related papers.
 
 <details class="technical-overview" markdown="1">
-<summary>Fractional Brownian motion: memory and a changing Hurst exponent</summary>
+<summary>Fractional and multifractional Brownian motion</summary>
 
 A standard fractional Brownian motion $$B_H(t)$$ is a centred Gaussian process with covariance
 
@@ -61,10 +61,37 @@ Its mean-squared displacement grows as $$t^{2H}$$. The value $$H=1/2$$ gives Bro
 for $$H>1/2$$, increments have positive, long-range dependence, while $$H<1/2$$ gives
 negatively correlated increments.
 
-A single exponent may be too restrictive for heterogeneous systems. My work with collaborators
-considers both random exponents and exponents that evolve during a trajectory. In telegraphic
-multifractional Brownian motion, a smoothed switching process drives the Hurst exponent.
-This gives a tractable model for changing memory and a way to investigate such changes in data.
+**Multifractional Brownian motion (MBM)** allows the Hurst exponent to vary along a trajectory.
+For a regular deterministic function $$h(t)\in(0,1)$$, the harmonizable definition is
+
+$$
+B_h(t)=C(h(t))\int_{\mathbb R}
+\frac{e^{\mathrm i\omega t}-1}{|\omega|^{h(t)+1/2}}\,widehat W(d\omega),
+\qquad t\geq0,
+$$
+
+$$
+C(h)=\sqrt{\frac{\Gamma(2h+1)\sin(\pi h)}{2\pi}}.
+$$
+
+Here $$\widehat W$$ is complex Gaussian white noise with Lebesgue control measure and Hermitian
+symmetry, making the integral real-valued. The normalization gives
+$$\operatorname{Var}[B_h(t)]=t^{2h(t)}$$; constant $$h(t)=H$$ recovers standard FBM.
+
+**Telegraphic multifractional Brownian motion (TeMBM)** replaces $$h(t)$$ in this representation
+by a random Hurst process $$\mathcal H(t)$$, independent of $$\widehat W$$. We take the stationary solution of
+
+$$
+\frac{d\mathcal H(t)}{dt}=\frac{\mathcal H_{\mathrm{TP}}(t)-\mathcal H(t)}{\tau},
+\qquad \tau>0.
+$$
+
+The telegraph process $$\mathcal H_{\mathrm{TP}}$$ is a stationary two-state continuous-time Markov chain,
+switching between $$0<H_1<H_2<1$$ with rates $$\lambda_{12}$$ and $$\lambda_{21}$$.
+The relaxation time $$\tau$$ makes $$\mathcal H(t)$$ continuous, with exponential relaxation
+between switches. Its stationary distribution is a beta distribution rescaled to $$[H_1,H_2]$$.
+Thus TeMBM models changes within a trajectory, while FBM with a random but fixed exponent
+models variation between trajectories.
 
 **Representative papers:**
 [Random Hurst exponent (2022)]({{ '/publications/#BalcerekEtAl2022RandomH' | relative_url }}) ·
@@ -103,7 +130,7 @@ $$
 
 The normalization gives $$\operatorname{Var}[X_j(t)]=\sigma_j^2t^{2H_j}$$, allowing different
 scaling in each direction. When $$H_j=1/2$$, the kernel reduces to the indicator of
-$$[0,t)$$ and that coordinate becomes scaled Brownian motion.
+$$[0,t)$$, so $$X_j(t)=\sigma_j\widetilde W_j(t)$$ is Brownian motion with variance $$\sigma_j^2t$$.
 
 My recent work with collaborators studies the resulting two-dimensional fractional Brownian
 motion through its auto-covariances, cross-covariances, and power spectra. Related work on turning
