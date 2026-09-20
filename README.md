@@ -6,18 +6,20 @@ Website: **https://michalbalcerek.github.io/**.
 
 ## Edit your content
 
-| Content                              | File                                |
-| ------------------------------------ | ----------------------------------- |
-| Biography                            | `_pages/about.md`                   |
-| Publications                         | `_bibliography/papers.bib` (BibTeX) |
-| Projects                             | Add Markdown files in `_projects/`  |
-| CV                                   | `_data/cv.yml`                      |
-| Teaching overview and office hours   | `_pages/teaching.md`                |
-| Individual course pages              | Markdown files in `_teachings/`     |
-| GitHub and other public links        | `_data/socials.yml`                 |
-| Name, description, and site settings | `_config.yml`                       |
+| Content                               | File                                |
+| ------------------------------------- | ----------------------------------- |
+| Biography                             | `_pages/about.md`                   |
+| Research overview and technical notes | `_pages/research.md`                |
+| Thesis topics and student projects    | `_pages/students.md`                |
+| Publications                          | `_bibliography/papers.bib` (BibTeX) |
+| Projects                              | Add Markdown files in `_projects/`  |
+| CV                                    | `_data/cv.yml`                      |
+| Teaching overview and office hours    | `_pages/teaching.md`                |
+| Individual course pages               | Markdown files in `_teachings/`     |
+| GitHub and other public links         | `_data/socials.yml`                 |
+| Name, description, and site settings  | `_config.yml`                       |
 
-The site includes About, Publications, Projects, CV, and Teaching sections. Course pages are starter pages; fill in their schedules, materials, and assessment details when ready.
+The navigation is About, Research, Publications, For students, Teaching, and CV. Research links to the project pages, and the existing `/projects/` address remains available. Course pages are starter pages; fill in their schedules, materials, and assessment details when ready.
 
 You can edit these files directly on GitHub. Commit changes to `main`; the **Deploy site** workflow rebuilds the website automatically. Do not edit the generated `gh-pages` branch.
 
@@ -37,6 +39,12 @@ Your project description goes here.
 ```
 
 Project cards appear automatically on the Projects page. Add images under `assets/img/` if desired.
+
+## Update research and student pages
+
+Edit `_pages/research.md` for current research topics, mathematical overviews, and links to representative publications. Technical overviews use native `<details>` elements and MathJax; keep `markdown="1"` on the expandable blocks so that paragraphs and equations render correctly. Research projects are listed from the `_projects/` collection.
+
+Edit `_pages/students.md` for proposed thesis topics, supervision information, and theses grouped by academic year. Preserve the distinction between supervised theses and the earlier work supported through consultations. Keep any availability notice explicitly dated; the imported 2025/26 notice does not establish availability for later years.
 
 ## Add CV details
 
