@@ -18,7 +18,9 @@ Strona kursu jest w przygotowaniu. Opis i zakres kursu zostaną dodane.
 
 ## Zajęcia i konsultacje
 
-Terminy zajęć, miejsce spotkań i godziny konsultacji zostaną podane tutaj.
+[Plan zajęć w semestrze zimowym 2026/27]({{ '/teaching/' | relative_url }}#schedule) zawiera godziny zajęć, grupy i sale oraz odnośnik do aktualnego planu w USOS.
+
+Godziny konsultacji zostaną podane tutaj.
 
 ## Materiały
 

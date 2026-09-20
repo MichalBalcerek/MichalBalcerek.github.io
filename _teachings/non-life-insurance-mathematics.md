@@ -18,7 +18,9 @@ This course page is being prepared. The course description and syllabus will be 
 
 ## Schedule and office hours
 
-Class times, locations, and office hours will be announced here.
+See the [winter semester 2026/27 schedule]({{ '/teaching/' | relative_url }}#schedule) for class times, groups, rooms, and the current timetable in USOS.
+
+Office hours will be announced here.
 
 ## Materials
 
