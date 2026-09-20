@@ -73,7 +73,7 @@ This gives a tractable model for changing memory and a way to investigate such c
 </details>
 
 <details class="technical-overview" markdown="1">
-<summary>Two-dimensional diffusion: dependence between spatial directions</summary>
+<summary>Two-dimensional anomalous diffusion</summary>
 
 A planar trajectory contains information that is lost when each coordinate is analysed separately.
 One starting point for a dependent model is a pair of correlated Brownian drivers:
@@ -84,8 +84,26 @@ $$
 \qquad |\rho|\leq 1,
 $$
 
-where $$W_1$$ and $$W_2$$ are independent Brownian motions. Applying fractional kernels with
-exponents $$H_1$$ and $$H_2$$ introduces memory and allows different scaling in the two directions.
+where $$W_1$$ and $$W_2$$ are independent two-sided Brownian motions. Memory enters through the
+**causal Mandelbrot–van Ness kernel**,
+
+$$
+K_H(t,s)=a_H\left[(t-s)_+^{H-\frac12}-(-s)_+^{H-\frac12}\right],
+\qquad
+a_H=\frac{\sqrt{\Gamma(2H+1)\sin(\pi H)}}{\Gamma(H+\frac12)}.
+$$
+
+Here $$x_+^\alpha=x^\alpha$$ for $$x>0$$ and zero otherwise, including when $$\alpha=0$$.
+For $$t\geq0$$, the two coordinates are
+
+$$
+X_j(t)=\sigma_j\int_{\mathbb R}K_{H_j}(t,s)\,\mathrm d\widetilde W_j(s),
+\qquad j=1,2,\quad H_j\in(0,1),\quad\sigma_j>0.
+$$
+
+The normalization gives $$\operatorname{Var}[X_j(t)]=\sigma_j^2t^{2H_j}$$, allowing different
+scaling in each direction. When $$H_j=1/2$$, the kernel reduces to the indicator of
+$$[0,t)$$ and that coordinate becomes scaled Brownian motion.
 
 My recent work with collaborators studies the resulting two-dimensional fractional Brownian
 motion through its auto-covariances, cross-covariances, and power spectra. Related work on turning

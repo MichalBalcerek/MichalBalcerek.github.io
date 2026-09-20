@@ -8,7 +8,9 @@ toc:
   sidebar: right
 ---
 
-This page brings together ideas for diploma theses and a record of student projects I have supervised or supported. The topics range from stochastic processes and time series to applications in finance, biology, and data analysis.
+This page brings together ideas for master's theses and a record of completed student projects I have supervised or supported. The topics range from stochastic processes and time series to applications in finance, biology, and data analysis.
+
+I am not currently supervising any ongoing theses.
 
 If you are interested in a topic below, or would like to suggest your own, please [email me](mailto:michal.balcerek@pwr.edu.pl). Course information and materials are available under [Teaching]({% link _pages/teaching.md %}).
 
@@ -16,41 +18,37 @@ If you are interested in a topic below, or would like to suggest your own, pleas
 
 These are starting points for discussion. Students' own proposals are also welcome.
 
-### Engineering and bachelor's studies
+### Master's studies
+
+Following the change in the study structure, thesis projects are now offered at master's level; engineering and bachelor's programmes no longer include a thesis.
 
 - Long-memory processes, including fractional Brownian motion and ARFIMA: simulation and parameter estimation.
 - Long-memory estimators for stochastic processes: a review and applications.
 - Hidden Markov chains.
 - Dependence measures for random variables or stochastic processes.
 - Brownian motion with stochastic volatility.
-
-### Master's studies
-
 - Stochastic volatility models, including GARCH and ARFIMA–GARCH.
 
-**Supervision notice for 2025/26:** All supervision places for that academic year were allocated. Please contact me about availability for later years.
+## Completed thesis projects
 
-## Student thesis projects
+The titles below are retained in their original language. Select an academic year to view the completed theses, grouped by their degree level at the time; programme names are included where recorded.
 
-The titles below are retained in their original language. They are grouped by academic year and degree level; programme names are included where recorded.
+<details class="thesis-year" markdown="1">
+<summary>2025/26</summary>
 
-### Academic year 2025/26
-
-#### Engineering theses
+**Engineering theses**
 
 - Modele statystyczne w prognozowaniu cen nieruchomości
 - Modelowanie cen mieszkań w dużych miastach Polski
 - Dobór Istotnych Elementów Tworzących Algorytm Optymalizacji Konsumpcji
 
-#### Master's theses
+**Master's theses**
 
 - Modelling and identification of neurological disorders using EEG signals
 - Data-driven analysis and comparison of multivariate stochastic process models
 - Identification of latent structure and regimes in multivariate time series
 
-## Earlier years
-
-Select an academic year to view the thesis titles.
+</details>
 
 <details class="thesis-year" markdown="1">
 <summary>2024/25</summary>
@@ -192,5 +190,3 @@ I obtained my doctorate in 2018. My role in the theses listed for 2017/18 was as
 - Metody numeryczne wyceny opcji
 
 </details>
-
-The thesis ideas and project record are based on my [earlier diploma-theses page](https://prac.im.pwr.edu.pl/~balcerek/diploma_theses.html).
