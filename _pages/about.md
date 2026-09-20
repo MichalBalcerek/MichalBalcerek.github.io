@@ -24,10 +24,11 @@ with applications to the analysis of single-particle trajectories.
 </nav>
 
 <nav aria-label="Explore my work" style="display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; align-items: center; margin-bottom: 1.5rem;">
-  <a href="{{ '/projects/' | relative_url }}">Research projects →</a>
+  <a href="{{ '/research/' | relative_url }}">Research →</a>
   <a href="{{ '/publications/' | relative_url }}">Publications →</a>
-  <a href="{{ '/cv/' | relative_url }}"><i class="ai ai-cv" aria-hidden="true"></i> CV →</a>
+  <a href="{{ '/students/' | relative_url }}">For students →</a>
   <a href="{{ '/teaching/' | relative_url }}">Teaching →</a>
+  <a href="{{ '/cv/' | relative_url }}"><i class="ai ai-cv" aria-hidden="true"></i> CV →</a>
 </nav>
 
 ## Research interests
@@ -38,6 +39,7 @@ with applications to the analysis of single-particle trajectories.
       <div class="card-body">
         <h3 class="card-title" style="font-size: 1.1rem; line-height: 1.4;">Anomalous diffusion</h3>
         <p class="card-text">Stochastic modelling of diffusion and complex trajectories.</p>
+        <a href="{{ '/research/#anomalous-diffusion' | relative_url }}">Read more →</a>
       </div>
     </div>
   </div>
@@ -46,6 +48,7 @@ with applications to the analysis of single-particle trajectories.
       <div class="card-body">
         <h3 class="card-title" style="font-size: 1.1rem; line-height: 1.4;">Long-memory processes</h3>
         <p class="card-text">Stochastic processes with dependence across time.</p>
+        <a href="{{ '/research/#long-memory-processes' | relative_url }}">Read more →</a>
       </div>
     </div>
   </div>
@@ -54,6 +57,7 @@ with applications to the analysis of single-particle trajectories.
       <div class="card-body">
         <h3 class="card-title" style="font-size: 1.1rem; line-height: 1.4;">Statistical inference</h3>
         <p class="card-text">Statistical methods for single-particle trajectories and experimental data.</p>
+        <a href="{{ '/research/#statistical-inference' | relative_url }}">Read more →</a>
       </div>
     </div>
   </div>

@@ -2,10 +2,11 @@
 layout: page
 title: Projects
 permalink: /projects/
-nav: true
-nav_order: 2
+nav: false
 horizontal: false
 ---
+
+[← Research]({{ '/research/' | relative_url }})
 
 {% if site.projects.size == 0 %}
 
