@@ -11,6 +11,9 @@ latest_posts:
   enabled: false
 ---
 
+<div class="row" style="align-items: center; margin-bottom: 1.5rem;">
+<div class="col-md-8" markdown="1">
+
 I am a mathematician in the Faculty of Pure and Applied Mathematics at Wrocław University of Science and Technology.
 My research concerns stochastic processes, anomalous diffusion, long memory, and statistical inference,
 with applications to the analysis of single-particle trajectories.
@@ -30,6 +33,14 @@ with applications to the analysis of single-particle trajectories.
   <a href="{{ '/teaching/' | relative_url }}">Teaching →</a>
   <a href="{{ '/cv/' | relative_url }}"><i class="ai ai-cv" aria-hidden="true"></i> CV →</a>
 </nav>
+
+</div>
+<div class="col-md-4">
+  <div style="max-width: 260px; margin: 0 auto;">
+    {% include figure.liquid path="assets/img/michal-balcerek.jpg" alt="Michał Balcerek" class="img-fluid rounded" loading="eager" width="3072" height="4080" sizes="(min-width: 768px) 260px, (max-width: 300px) 90vw, 260px" cache_bust=true %}
+  </div>
+</div>
+</div>
 
 ## Research interests
 
