@@ -66,7 +66,7 @@ For a regular deterministic function $$h(t)\in(0,1)$$, the harmonizable definiti
 
 $$
 B_h(t)=C(h(t))\int_{\mathbb R}
-\frac{e^{\mathrm i\omega t}-1}{|\omega|^{h(t)+1/2}}\,widehat W(d\omega),
+\frac{e^{\mathrm i\omega t}-1}{|\omega|^{h(t)+1/2}}\,\widehat W(d\omega),
 \qquad t\geq0,
 $$
 
