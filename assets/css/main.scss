@@ -159,6 +159,60 @@ footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
 }
 
+// Expandable research notes and thesis archives use native keyboard controls.
+.technical-overview,
+.thesis-year {
+  margin: 1rem 0;
+  padding: 1rem 1.25rem;
+  background: var(--personal-contact-bg);
+  border: 1px solid var(--global-divider-color);
+  border-left: 3px solid var(--global-theme-color);
+  border-radius: 0.65rem;
+}
+
+.technical-overview > summary,
+.thesis-year > summary {
+  cursor: pointer;
+  color: var(--global-theme-color);
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.technical-overview[open],
+.thesis-year[open] {
+  border-left-color: var(--personal-neon-pink);
+}
+
+.technical-overview[open] > summary,
+.thesis-year[open] > summary {
+  margin-bottom: 1rem;
+}
+
+.technical-overview > summary:focus-visible,
+.thesis-year > summary:focus-visible {
+  outline: 2px solid var(--personal-pink);
+  outline-offset: 5px;
+  border-radius: 2px;
+}
+
+.technical-overview mjx-container[display="true"] {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-block: 0.2rem;
+}
+
+.page-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.thesis-year li + li {
+  margin-top: 0.6rem;
+}
+
 @media (max-width: 575px) {
   .contact-panel {
     padding: 1.1rem;
