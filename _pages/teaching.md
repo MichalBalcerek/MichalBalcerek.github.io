@@ -50,13 +50,13 @@ For individual teaching dates, breaks, and changes, please check the [current ti
 
 | Time        | Course and group                                                                                          | Building · room |
 | ----------- | --------------------------------------------------------------------------------------------------------- | --------------- |
-| 07:30–09:00 | [Analiza matematyczna 1]({{ analysis_url }})<br><small>Exercises · group 2 · 13IEA0-25S101O00111C</small> | C-4 · 31        |
+| 07:30–09:00 | [Non-life insurance mathematics]({{ insurance_url }})<br><small>Project · group 2</small>                 | L-1 · 116       |
 | 11:15–13:00 | [Analiza matematyczna 1]({{ analysis_url }})<br><small>Exercises · group 2 · 13EBR0-25S101O00111C</small> | D-1 · 28        |
 | 13:15–15:00 | [Analiza matematyczna 1]({{ analysis_url }})<br><small>Exercises · group 1 · 13IEA0-25S101O00111C</small> | C-2 · 304       |
 
 </div>
 
-<p class="text-muted"><small>Schedule checked on 20 September 2026. The USOS course codes distinguish the Analiza matematyczna 1 groups.</small></p>
+<p class="text-muted"><small>Schedule checked on 24 September 2026. The USOS course codes distinguish the Analiza matematyczna 1 groups.</small></p>
 
 [usos-timetable]: https://web.usos.pwr.edu.pl/kontroler.php?_action=katalog2/osoby/pokazPlanZajecStudenta&plan_division=semester&plan_timebase_sel_timebase=1790805600&token=S7QysqoutjKzUspPykpNLlGyTrQyBImYAkWK4zNTlKwzrYwtLA2MrWuLrcytlFIrCjKLUotBwobmloaGBgamFobWtQA%3D08ea26162cc6c42552c89571a01f972a553d464e
 
