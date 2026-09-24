@@ -1,36 +1,58 @@
 cv:
   name: Michał Balcerek
   label: Mathematician
+  email: michal.balcerek@pwr.edu.pl
+  website: https://michalbalcerek.github.io/
   summary: >-
     Assistant Professor at the Faculty of Pure and Applied Mathematics, Wrocław University of Science and Technology.
-    My research concerns stochastic processes, anomalous diffusion, long memory,
-    statistical inference, and the analysis of single-particle trajectories.
+    My research concerns stochastic processes, anomalous diffusion and statistical inference,
+    connecting models of memory, heterogeneity and spatial dependence with observed trajectories.
+    Applications include single-particle tracking in biological systems, environmental time series,
+    and financial and actuarial models.
 
   sections:
+    Research profile:
+      - bullet: >-
+          **Random and evolving memory:** fractional and multifractional Brownian motion,
+          random Hurst exponents, telegraphic multifractional models, switching dynamics and ergodicity.
+      - bullet: >-
+          **Multidimensional diffusion:** dependent spatial components, covariance and spectral analysis,
+          turning-angle statistics and anisotropy in molecular trajectories.
+      - bullet: >-
+          **Statistical identification:** testing fractional models, discriminating Gaussian processes with
+          quadratic-form statistics, assessing Gaussianity and accounting for measurement noise.
+      - bullet: >-
+          **Trajectory analysis:** change-point detection, parameter estimation, hidden Markov models and
+          the collaborative CINNAMON approach combining statistical and neural-network methods.
+      - bullet: >-
+          **Applied stochastic modelling:** heterogeneous membrane and cytoplasmic diffusion, environmental
+          measurements, subordinated option-pricing models and machine learning for catastrophe bonds.
+
     Education:
       - institution: Wrocław University of Science and Technology
         location: Wrocław, Poland
         studyType: PhD
         area: Mathematics
-        date: 2018
+        date: 2018-05
         highlights:
           - Faculty of Pure and Applied Mathematics.
           - "Thesis: Stochastic and numerical modelling of signals having anomalous diffusion behaviour."
-          - "Supervisor: Krzysztof Burnecki."
+          - "Supervisor: Prof. Krzysztof Burnecki."
 
       - institution: Wrocław University of Science and Technology
         location: Wrocław, Poland
         studyType: MSc
-        area: Financial and Actuarial Mathematics
+        area: Mathematics; specialisation in Financial and Actuarial Mathematics
         date: 2012
         highlights:
           - Faculty of Fundamental Problems of Technology.
           - "Thesis: Risk process with different loss distributions."
-          - "Supervisor: Agnieszka Wyłomańska."
+          - "Supervisor: Prof. Agnieszka Wyłomańska."
 
       - institution: Wrocław University of Science and Technology
         location: Wrocław, Poland
         studyType: Bachelor's degree
+        area: Mathematics
         date: 2010
         highlights:
           - Faculty of Fundamental Problems of Technology.
@@ -39,7 +61,7 @@ cv:
       - company: Wrocław University of Science and Technology
         position: Academic staff
         location: Wrocław, Poland
-        start_date: 2013
+        start_date: 2017
         end_date: present
         summary: Currently Assistant Professor (adiunkt), Faculty of Pure and Applied Mathematics.
         highlights:
@@ -53,96 +75,194 @@ cv:
         end_date: 2022-02
         summary: February 2021–February 2022.
         highlights:
-          - Interdisciplinary applications of statistical and machine-learning methods to biological experimental data.
+          - Statistical and machine-learning methods for biological experimental data.
 
-    Research Visits:
+    Research funding and projects:
       - bullet: >-
-          **2026/27 — Colorado State University, Fort Collins, USA.** Scheduled seven-month
-          research stay under the Fulbright Senior Award 2026, hosted by Prof. Diego Krapf.
+          **2026/27 — Fulbright Senior Award 2026**, Polish-U.S. Fulbright Commission.
+          *Data-Driven Fractional Random Anomalous Motion.* Awarded for a seven-month research stay at
+          Colorado State University with Prof. Diego Krapf, scheduled for 2026/27.
+          Fulbright Senior Award; the programme is currently named Fulbright Polish Scholar Award,
+          from the 2027 edition.
       - bullet: >-
-          **2024 — Colorado State University.** Research stay in Prof. Diego Krapf's laboratory,
-          studying doubly stochastic processes with long memory, ergodic properties,
-          statistical estimators, measurement noise, and single-particle-tracking data.
+          **2023–2024 — Principal Investigator, NCN MINIATURA 7.**
+          *Analysis of doubly stochastic processes with long memory.*
+          National Science Centre, Poland; grant 2023/07/X/ST1/01139.
       - bullet: >-
-          **2022 — Colorado State University.** Visiting researcher in Prof. Diego Krapf's group.
-
-    Awards:
-      - title: Fulbright Senior Award 2026
-        date: 2026/27
-        awarder: Polish-U.S. Fulbright Commission
-        url: https://fulbright.edu.pl/laureates-of-the-fulbright-senior-award-2026-27/
-        summary: Awarded for a research stay at Colorado State University in the 2026/27 academic year. Fulbright Senior Award, currently Fulbright Polish Scholar Award (from the 2027 edition).
-
-      - title: Secundus programme, seventh edition
-        date: 2026
-        awarder: Wrocław University of Science and Technology
-        url: https://pwr.edu.pl/uczelnia/aktualnosci/laureaci-i-laureatki-siodmej-edycji-programu-secundus-lista-14134.html
-        summary: Laureate in the discipline of Mathematics.
-
-      - title: Rector's Prizes
-        date: 2025
-        awarder: Wrocław University of Science and Technology
-        summary: Received in 2021, 2023, 2024, and 2025 in recognition of teaching and scientific activities.
-
-      - title: Quintus Prize
-        date: 2024
-        awarder: Wrocław University of Science and Technology
-        summary: Student-selected distinction for teaching excellence.
-
-      - title: Academia Iuvenum
-        date: 2022–2024
-        awarder: Wrocław University of Science and Technology
-        summary: Member of the university's interdisciplinary programme for early-career researchers.
-
-    Teaching and Supervision:
+          **2018 — University research grant**, Wrocław University of Science and Technology.
+          *Investigation and development of methods for modelling processes with anomalous diffusion.*
+          Targeted research funding, reference 0402/0053/18.
       - bullet: >-
-          **Teaching since 2013.** Courses include computer simulation of stochastic processes,
-          numerical methods, financial engineering, stochastic modelling of financial markets,
-          probability and statistics software, differential equations, calculus, linear algebra,
-          risk modelling, and insurance mathematics.
+          **2013–2018 — Investigator, NCN MAESTRO.** Principal Investigator: Aleksander Weron.
+          *Anomalous dynamics of complex physical and biological systems: stochastic modeling and statistical identification.*
+          Grant 2012/06/A/ST1/00258.
       - bullet: >-
-          **Thesis supervision.** More than 50 BSc/BEng and MSc thesis projects supervised since
-          2018 in applied mathematics, stochastic processes, statistical inference,
-          computational methods, and data analysis.
+          **Project period: 2013–2016 — Investigator, NCN OPUS 4.** Principal Investigator: Andrzej Szczurek.
+          *The variability of physical and chemical parameters in time as a source of comprehensive information about indoor air quality.*
+          Grant 2012/07/B/ST8/03031.
+
+    Research visits and collaborations:
       - bullet: >-
-          **Doctoral supervision.** Assistant supervisor to two doctoral candidates,
-          including one in the Industrial Doctorate programme.
-      - bullet: "**Teaching tools:** Julia, Python, MATLAB, Mathematica, R, and SAS."
+          **May–August 2024 — Colorado State University, Fort Collins, USA.**
+          Research stay in Prof. Diego Krapf's laboratory through NCN MINIATURA 7.
+          Doubly stochastic processes with long memory, ergodic properties, statistical estimators and measurement noise.
+      - bullet: >-
+          **January 2022 — Colorado State University, Fort Collins, USA.**
+          Visiting researcher in Prof. Diego Krapf's group.
+      - bullet: >-
+          **April 2014 — University of Würzburg, Germany.** Research visit.
+      - bullet: >-
+          **Research collaborations** have included the groups of Diego Krapf (Colorado State University),
+          Carlo Manzo (University of Vic, Spain), and Davide Calebiro (then at the University of Würzburg).
+          The Birmingham postdoctoral appointment and planned Fulbright stay are listed above.
+
+    Honours and distinctions:
+      - bullet: >-
+          **2026 — Secundus programme, seventh edition.** Laureate in Mathematics, for research output published in 2025.
+          [University announcement](https://pwr.edu.pl/uczelnia/aktualnosci/laureaci-i-laureatki-siodmej-edycji-programu-secundus-lista-14134.html).
+      - bullet: >-
+          **2021, 2023, 2024, 2025 — Rector's Prizes.** Teaching and scientific activities.
+      - bullet: >-
+          **2024 — Quintus Prize.** Student-selected distinction for teaching excellence.
+      - bullet: >-
+          **2022–2024 — Academia Iuvenum.** Member of the interdisciplinary programme for early-career researchers.
+      - bullet: >-
+          All distinctions above are from Wrocław University of Science and Technology.
+          The Fulbright award is described under research funding.
+
+    Selected publications:
+      - bullet: >-
+          [View the full publication list, including preprints](/publications/).
+          All 25 records are also included in the downloadable CV.
 
     Selected talks and activities:
       - bullet: >-
-          **December 2025 — CFE–CMStatistics, London.** “Multidimensional fractional Brownian motion:
-          From construction to analysis.”
+          **August 2026 — International Conference on Trends and Perspectives in Linear Statistical Inference (LinStat), Poznań, Poland.**
+          “When switching fractional Brownian motion becomes non-Gaussian.” Invited talk.
       - bullet: >-
-          **July 2025 — 44th Conference on Stochastic Processes and their Applications, Wrocław.**
-          “Two-dimensional fractional Brownian motion: construction and analysis.”
+          **July 2026 — Mathematics in Finance, Skukuza, South Africa.**
+          “Modeling Markets with Evolving Memory.” Talk.
       - bullet: >-
-          **June 2025 — AnDi+: AI for Bioimaging Beyond Trajectory Analysis, Gothenburg.**
-          “From Theory to Application: Modeling Complex Systems with Telegraphic Multifractional Brownian Motion.”
+          **June–July 2026 — 23rd ECMI Conference on Industrial and Applied Mathematics, Kaunas, Lithuania.**
+          “Beyond Independent Diffusion: Modeling Correlated Multidimensional Anomalous Dynamics.” Talk; chair of a session in the minisymposium “Fractional dynamics and applications”.
       - bullet: >-
-          **December 2023 — CMStatistics, Berlin.** “Modelling intermittent anomalous diffusion with
-          switching fractional Brownian motion”; chair of “Stochastic processes and applications.”
+          **December 2025 — CFE–CMStatistics, London, United Kingdom.**
+          “Multidimensional fractional Brownian motion: From construction to analysis.” Talk.
       - bullet: >-
-          **November 2022 — Mathematics for Society: Health, Industry and Sustainable Development, Gdańsk.**
-          Invited talk, “Applications of anomalous diffusion and long-memory processes.”
+          **July 2025 — 44th Conference on Stochastic Processes and their Applications, Wrocław, Poland.**
+          “Two-dimensional fractional Brownian motion: construction and analysis.” Talk.
       - bullet: >-
-          **November 2019 — University of Verona.** Invited lecture series, “Anomalous diffusion and applications to molecular biology.”
+          **June 2025 — AnDi+: AI for Bioimaging Beyond Trajectory Analysis, Gothenburg, Sweden.**
+          “From Theory to Application: Modeling Complex Systems with Telegraphic Multifractional Brownian Motion.” Talk.
       - bullet: >-
-          **2018 — Humboldt-Universität zu Berlin.** Invited lecture series, “Statistics of Financial Markets II.”
+          **December 2024 — Recent Advances in Applied Mathematics (RAAM), Wrocław, Poland.**
+          “Evaluating Gaussianity of heterogeneous fractional Brownian motion.” Talk; organiser.
       - bullet: >-
-          **July 2018 — ECMI Modelling Week, Novi Sad.** Instructor and student-team leader,
-          “Diffusion and anomalous diffusion models: simulation and application to biological data.”
+          **September 2024 — Fluctuations in Small Complex Systems VII, Venice, Italy.**
+          “2d Brownian motion with dependent components.” Poster.
+      - bullet: >-
+          **February 2024 — European Physical Society Statistical and Nonlinear Physics Prizes Conference, Wrocław, Poland.**
+          “Intermittent anomalous diffusion.” Talk; organiser.
+      - bullet: >-
+          **December 2023 — CMStatistics, Berlin, Germany.**
+          “Modelling intermittent anomalous diffusion with switching fractional Brownian motion.” Talk; chair of “Stochastic processes and applications”.
+      - bullet: >-
+          **September 2023 — 51st Conference on Applications of Mathematics, Kościelisko, Poland.**
+          “Telegraphic multifractional Brownian motion and its applications.” Talk.
+      - bullet: >-
+          **June 2023 — 22nd ECMI Conference on Industrial and Applied Mathematics, Wrocław, Poland.**
+          “Doubly stochastic fractional Brownian motion.” Talk; organiser.
+      - bullet: >-
+          **December 2022 — XLVIII Conference on Mathematical Statistics, Będlewo, Poland.**
+          “Fractional Brownian motion with random Hurst exponent.” Talk; organiser.
+      - bullet: >-
+          **November 2022 — Mathematics for Society: Health, Industry and Sustainable Development, Gdańsk, Poland.**
+          “Applications of anomalous diffusion and long-memory processes.” Invited talk.
+      - bullet: >-
+          **April 2021 — 21st ECMI Conference on Industrial and Applied Mathematics, Wuppertal, Germany (online).**
+          “Testing of Multifractional Brownian Motion.” Talk.
+      - bullet: >-
+          **December 2019 — Stochastic and AI Modeling of Complex Systems, Wrocław, Poland.**
+          “Testing of fractional Brownian motion in a noisy environment.” Talk.
+      - bullet: >-
+          **November 2019 — University of Verona, Italy.**
+          “Anomalous diffusion and applications to molecular biology.” Invited lecture series.
+      - bullet: >-
+          **September 2018 — Joint Meeting of the Italian Mathematical Union, the Italian Society of Industrial and Applied Mathematics and the Polish Mathematical Society, Wrocław, Poland.**
+          “Ergodicity surfaces for Gaussian processes.” Talk; organiser.
+      - bullet: >-
+          **July 2018 — ECMI Modelling Week, Novi Sad, Serbia.**
+          “Diffusion and anomalous diffusion models: simulation and application to biological data.” Instructor and student-team leader.
+      - bullet: >-
+          **June 2018 — Humboldt-Universität zu Berlin, Germany.**
+          “Statistics of Financial Markets II.” Invited lecture series; invited by Wolfgang Härdle and Alla Petukhina.
+      - bullet: >-
+          **September 2017 — Summer School on Normal and Anomalous Stochastic Processes in Physics, Acre, Israel.**
+          “Extracting the magnitude of the measurement error for fractional dynamics.” Poster.
+      - bullet: >-
+          **June 2017 — Ulam Computer Simulations Workshop, Lviv, Ukraine.**
+          “Calibration surface approach to the real data.” Poster.
+      - bullet: >-
+          **September 2016 — 29th Marian Smoluchowski Symposium on Statistical Physics: Nonequilibrium and Theory of Fluctuations, Zakopane, Poland.**
+          “Analysing ergodicity in biological data.” Poster.
+      - bullet: >-
+          **July 2016 — Summer School on Mathematical Methods of Statistics, Angers, France.**
+          “Identification methods of changes in variance in processes.” Talk.
+      - bullet: >-
+          **February 2015 — Workshop on Stochastic Models, Statistics and Their Applications, Wrocław, Poland.**
+          “Stochastic Dynamics of G-Protein-Coupled Cell-Surface Receptors.” Talk.
+      - bullet: >-
+          **September 2014 — 27th Marian Smoluchowski Symposium on Statistical Physics: Randomness in Nonequilibrium Systems, Zakopane, Poland.**
+          “Stochastic analysis of indoor air quality data.” Poster.
+      - bullet: >-
+          **June–July 2014 — 11th International Vilnius Conference on Probability Theory and Mathematical Statistics, Vilnius, Lithuania.**
+          “Stochastic dynamics of single particle tracking biological data.” Poster.
+
+    Teaching and research supervision:
+      - bullet: >-
+          **University teaching since 2013**, Wrocław University of Science and Technology.
+          Doctoral teaching duties in 2013–2017; subsequent teaching as a faculty member.
+          Courses in stochastic-process simulation, numerical methods, financial engineering,
+          stochastic modelling of financial markets, risk modelling, non-life insurance mathematics,
+          mathematical and statistical software, probability, differential equations, calculus,
+          real and complex analysis, and linear algebra.
+      - bullet: >-
+          **Completed degree projects since 2018.** Supervised more than 50 BSc/BEng and MSc thesis projects
+          in applied mathematics, stochastic processes, statistical inference, computational methods and data analysis.
+          Completed projects include the 2025/26 academic year. [Project record](/students/).
+      - bullet: >-
+          **Doctoral mentoring.** Assistant-supervision experience with Michał Wronka
+          (Industrial Doctorate programme) and Julia Kończal.
+      - bullet: >-
+          **Actuarial education.** Experience organising actuarial-examination preparation meetings.
 
     Other academic activities:
       - bullet: >-
+          **Journal peer review.** Reviewed manuscripts for *Chaos, Solitons & Fractals*, *Chaos*,
+          *Computational Statistics*, *Open Mathematics*, *Mathematica Applicanda*,
+          *Fractal and Fractional*, and *Entropy*.
+      - bullet: |-
+          **Conference organising committees:**
+
+          - Applied Mathematics Now and Beyond (2025).
+          - Recent Advances in Applied Mathematics (2024).
+          - European Physical Society Statistical and Nonlinear Physics Prizes Conference (2024).
+          - 22nd ECMI Conference on Industrial and Applied Mathematics (2023).
+          - XLVIII Conference on Mathematical Statistics (2022).
+          - Joint Meeting of the Italian Mathematical Union, the Italian Society of Industrial and Applied Mathematics, and the Polish Mathematical Society (2018).
+      - bullet: Representative of academic teachers on the Faculty of Pure and Applied Mathematics Council.
+      - bullet: >-
           Former advisor of [KNIF – Koło Naukowe Inżynierii Finansowej](https://www.facebook.com/KNIF.PWr.wroc/)
           (Financial Engineering Student Interest Group).
-      - bullet: Representative of academic teachers on the Faculty of Pure and Applied Mathematics Council.
-      - bullet: |-
-          **Organising committees:**
 
-          - XLVIII Conference on Mathematical Statistics (2022).
-          - 22nd ECMI Conference on Industrial and Applied Mathematics (2023).
-          - European Physical Society Statistical and Nonlinear Physics Prizes Conference (2024).
-          - Recent Advances in Applied Mathematics (2024).
-          - Applied Mathematics Now and Beyond (2025).
+    Actuarial qualifications and experience:
+      - bullet: >-
+          **2014 — State actuarial examinations.** Passed all four actuarial examinations organised by the
+          Polish Financial Supervision Authority (KNF); final examination passed in 2014.
+      - bullet: >-
+          **July–November 2012 — TU Europa Group, Wrocław.** Actuarial and risk-management experience.
+          Assistant to the Chief Risk Officer and actuarial-department internship, including work on Solvency II implementation.
+
+    Computational tools and languages:
+      - bullet: "**Research and teaching tools:** Julia, Python, MATLAB, R, Mathematica, SAS and LaTeX."
+      - bullet: "**Languages:** Polish (native), English (advanced), German (beginner)."
