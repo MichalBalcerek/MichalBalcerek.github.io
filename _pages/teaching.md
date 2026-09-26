@@ -64,13 +64,19 @@ For individual teaching dates, breaks, and changes, please check the [current ti
 
 <div class="card mb-4">
   <div class="card-body">
-    <p class="card-text mb-0">Office hours and contact details will be announced here.</p>
+    <p class="card-text">Office hours with dr Michał Balcerek — winter semester 2026/27:</p>
+    <ul>
+      <li><strong>Mondays, 10:00–12:00</strong></li>
+      <li><strong>Thursdays, 09:00–11:00</strong></li>
+    </ul>
+    <p class="card-text"><strong>Room A.3.23, building C-19.</strong> All times are local to Wrocław (Europe/Warsaw).</p>
+    <p class="card-text mb-0">Please email in advance to let me know you are coming: <a href="mailto:michal.balcerek@pwr.edu.pl">michal.balcerek@pwr.edu.pl</a>.</p>
   </div>
 </div>
 
 ## Courses
 
-The course pages below are being prepared. Materials and assessment information will be added to each page.
+Course materials, assessment information, and announcements are available on the course pages below.
 
 <div class="row">
   {% assign courses = site.teachings | sort: "importance" %}
