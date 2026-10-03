@@ -18,6 +18,7 @@ Regular teaching slots are listed below. All times are local to Wrocław (Europe
 For individual teaching dates, breaks, and changes, please check the [current timetable in USOS][usos-timetable].
 
 {% assign analysis_url = '/teaching/analiza-matematyczna-1/' | relative_url %}
+{% assign analysis_ebr_url = '/teaching/analiza-matematyczna-1-13ebr0/' | relative_url %}
 {% assign insurance_url = '/teaching/non-life-insurance-mathematics/' | relative_url %}
 {% assign numerical_url = '/teaching/metody-numeryczne/' | relative_url %}
 
@@ -25,11 +26,11 @@ For individual teaching dates, breaks, and changes, please check the [current ti
 
 <div role="region" aria-label="Tuesday teaching schedule" tabindex="0" style="overflow-x: auto;" markdown="1">
 
-| Time        | Course and group                                                                                        | Building · room |
-| ----------- | ------------------------------------------------------------------------------------------------------- | --------------- |
-| 07:30–09:00 | [Analiza matematyczna 1]({{ analysis_url }})<br><small>Lecture · group 1 · 13IEA0-25S101O00111W</small> | C-1 · 201/203   |
-| 09:15–11:00 | [Non-life insurance mathematics]({{ insurance_url }})<br><small>Laboratory · group 2</small>            | C-19 · A.0.5    |
-| 13:15–15:00 | [Non-life insurance mathematics]({{ insurance_url }})<br><small>Project · group 1</small>               | L-1 · 116       |
+| Time        | Course and group                                                                                                 | Building · room |
+| ----------- | ---------------------------------------------------------------------------------------------------------------- | --------------- |
+| 07:30–09:00 | [Analiza matematyczna 1 — 13IEA0]({{ analysis_url }})<br><small>Lecture · group 1 · 13IEA0-25S101O00111W</small> | C-1 · 201/203   |
+| 09:15–11:00 | [Non-life insurance mathematics]({{ insurance_url }})<br><small>Laboratory · group 2</small>                     | C-19 · A.0.5    |
+| 13:15–15:00 | [Non-life insurance mathematics]({{ insurance_url }})<br><small>Project · group 1</small>                        | L-1 · 116       |
 
 </div>
 
@@ -48,11 +49,11 @@ For individual teaching dates, breaks, and changes, please check the [current ti
 
 <div role="region" aria-label="Friday teaching schedule" tabindex="0" style="overflow-x: auto;" markdown="1">
 
-| Time        | Course and group                                                                                          | Building · room |
-| ----------- | --------------------------------------------------------------------------------------------------------- | --------------- |
-| 07:30–09:00 | [Non-life insurance mathematics]({{ insurance_url }})<br><small>Project · group 2</small>                 | L-1 · 116       |
-| 11:15–13:00 | [Analiza matematyczna 1]({{ analysis_url }})<br><small>Exercises · group 2 · 13EBR0-25S101O00111C</small> | D-1 · 28        |
-| 13:15–15:00 | [Analiza matematyczna 1]({{ analysis_url }})<br><small>Exercises · group 1 · 13IEA0-25S101O00111C</small> | C-2 · 304       |
+| Time        | Course and group                                                                                                       | Building · room |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------- | --------------- |
+| 07:30–09:00 | [Non-life insurance mathematics]({{ insurance_url }})<br><small>Project · group 2</small>                              | L-1 · 116       |
+| 11:15–13:00 | [Analiza matematyczna 1 — 13EBR0]({{ analysis_ebr_url }})<br><small>Exercises · group 2 · 13EBR0-25S101O00111C</small> | D-1 · 28        |
+| 13:15–15:00 | [Analiza matematyczna 1 — 13IEA0]({{ analysis_url }})<br><small>Exercises · group 1 · 13IEA0-25S101O00111C</small>     | C-2 · 304       |
 
 </div>
 
