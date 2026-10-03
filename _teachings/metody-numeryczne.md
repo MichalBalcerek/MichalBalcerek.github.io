@@ -1,31 +1,13 @@
 ---
 layout: page
 title: Metody numeryczne
-description: Informacje i materiały do kursu.
+description: Wszelkie informacje o kursie są dostępne na e-portalu.
 permalink: /teaching/metody-numeryczne/
 importance: 1
 symbol: "∑"
 nav: false
-toc:
-  sidebar: right
 ---
 
 [← Teaching]({{ '/teaching/' | relative_url }})
 
-## O kursie
-
-Strona kursu jest w przygotowaniu. Opis i zakres kursu zostaną dodane.
-
-## Zajęcia i konsultacje
-
-[Plan zajęć w semestrze zimowym 2026/27]({{ '/teaching/' | relative_url }}#schedule) zawiera godziny zajęć, grupy i sale oraz odnośnik do aktualnego planu w USOS.
-
-Godziny konsultacji zostaną podane tutaj.
-
-## Materiały
-
-Notatki, listy zadań i pozostałe materiały do kursu zostaną dodane tutaj.
-
-## Zasady zaliczenia
-
-Zasady zaliczenia i terminy ocenianych prac zostaną podane tutaj.
+Wszelkie informacje o kursie, materiały i zasady zaliczenia są dostępne na **e-portalu**.

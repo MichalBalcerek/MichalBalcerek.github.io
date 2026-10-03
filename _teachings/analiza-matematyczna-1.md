@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Analiza matematyczna 1
-description: Plan zajęć, materiały, zasady zaliczenia i konsultacje — semestr zimowy 2026/27.
+title: Analiza matematyczna 1 — 13IEA0
+description: Inteligentna elektronika · wykład i ćwiczenia · semestr zimowy 2026/27.
 permalink: /teaching/analiza-matematyczna-1/
 importance: 2
 symbol: "∫"
