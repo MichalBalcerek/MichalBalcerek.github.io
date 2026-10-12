@@ -50,5 +50,12 @@ Proszę o wcześniejsze zapowiedzenie wizyty mailowo: [michal.balcerek@pwr.edu.p
 
 [Zasady zaliczania — Ireneusz Augustyniak (PDF)]({{ '/assets/am1-13ebr0-zasady-zaliczania-2026.pdf' | relative_url }})
 
+## Egzaminy
+
+- **Egzamin podstawowy: 8 lutego 2027 r.**
+- **Egzamin poprawkowy: 15 lutego 2027 r.**
+
+[Harmonogram sesji — kursy ogólnouczelniane, Wydział Matematyki](https://wmat.pwr.edu.pl/studenci/kursy-ogolnouczelniane/harmonogram-sesji).
+
 [usos-lecture]: https://web.usos.pwr.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPlanZajecPrzedmiotu&prz_kod=13EBR0-25S101O00111W&cdyd_kod=2026%2F27-Z&plan_division=semester
 [usos-exercises]: https://web.usos.pwr.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPlanZajecPrzedmiotu&prz_kod=13EBR0-25S101O00111C&cdyd_kod=2026%2F27-Z&plan_division=semester
