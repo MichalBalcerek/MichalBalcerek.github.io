@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Non-life insurance mathematics
-description: Course information and materials.
+description: Course materials and assessment rules are available on the e-portal.
 permalink: /teaching/non-life-insurance-mathematics/
 importance: 3
 symbol: "ℙ"
@@ -12,20 +12,12 @@ toc:
 
 [← Teaching]({{ '/teaching/' | relative_url }})
 
-## Overview
+## Materials and assessment
 
-This course page is being prepared. The course description and syllabus will be added here.
+All course materials and assessment rules are available on the **e-portal**.
 
 ## Schedule and office hours
 
 See the [winter semester 2026/27 schedule]({{ '/teaching/' | relative_url }}#schedule) for class times, groups, rooms, and the current timetable in USOS.
 
-Office hours will be announced here.
-
-## Materials
-
-Notes, problem sets, and other course materials will be added here.
-
-## Assessment
-
-Assessment requirements and deadlines will be announced here.
+See [office hours]({{ '/teaching/' | relative_url }}#office-hours) for consultation times and contact information.
